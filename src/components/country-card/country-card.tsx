@@ -49,3 +49,5 @@ export const CountryCard = memo(({ country, selectedYear, selectedColumns }: Cou
     </div>
   );
 });
+
+CountryCard.displayName = 'CountryCard';
